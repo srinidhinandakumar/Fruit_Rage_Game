@@ -5,6 +5,7 @@ import time
 inputpath="input.txt"
 outputpath="output.txt"
 INF=math.inf
+
 n=0#board size between 1 to 26 inclusive
 p=0#number of fruit varieties 0 to 9
 time_remaining=0
@@ -21,6 +22,7 @@ nodesTravel=0
 safe_time_remaining=0  
 scores=[]
 column=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
 #print matrix output
 def print_solution(state=np.empty([n,n],dtype='<U1')):
         temp=""
